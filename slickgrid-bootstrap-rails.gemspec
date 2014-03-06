@@ -8,11 +8,11 @@ Gem::Specification.new do |gem|
   gem.version       = Slickgrid::Bootstrap::Rails::VERSION
   gem.authors       = ["Aki Atoji"]
   gem.email         = ["akiatoji@gmail.com"]
-  gem.description   = %q{Rails 3.x integration of SlickGrid with Bootstrap}
-  gem.summary       = %q{Rails 3.x integration of SlickGrid with Bootstrap}
+  gem.description   = %q{Rails 4.x integration of SlickGrid with Bootstrap}
+  gem.summary       = %q{Rails 4.x integration of SlickGrid with Bootstrap}
   gem.homepage      = "http://github.com/akiatoji/slickgrid-bootstrap-rails"
 
-  gem.add_dependency  "railties", "~> 3.0"
+  gem.add_dependency  "railties", "~> 4.0"
   gem.add_dependency  "jquery-dragdrop-rails"
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
